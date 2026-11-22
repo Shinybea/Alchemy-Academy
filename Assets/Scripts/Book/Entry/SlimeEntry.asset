@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4713c5651649da249b87a5a4bd32cf32, type: 3}
+  m_Name: SlimeEntry
+  m_EditorClassIdentifier: Assembly-CSharp::EntryButtonSO
+  entryIndex: 0
+  entryName: Slime
+  entryIcon: {fileID: 1043773282190407005, guid: 71ed6c22bf94be84aaa1543e07fd8430, type: 3}
+  entryObject: {fileID: 11400000, guid: 469bd09f229b35748887651a5bbdebe4, type: 2}

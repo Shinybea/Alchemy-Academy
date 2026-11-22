@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 71ed6c22bf94be84aaa1543e07fd8430
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7948147489084649355
+    second: slimeball_0
+  - first:
+      213: 1043773282190407005
+    second: slimeball_1
+  - first:
+      213: 4898779924234615490
+    second: slimeball_2
+  - first:
+      213: 8383813195949485214
+    second: slimeball_3
+  - first:
+      213: 1514446227858979947
+    second: slimeball_4
+  - first:
+      213: 2203020908087851205
+    second: slimeball_5
+  - first:
+      213: 5644117847116207508
+    second: slimeball_6
+  - first:
+      213: 7061225486691214741
+    second: slimeball_7
+  - first:
+      213: 587083814940398818
+    second: slimeball_8
+  - first:
+      213: -4370480488138175576
+    second: slimeball_9
+  - first:
+      213: -4524413059569729567
+    second: slimeball_10
+  - first:
+      213: -5517226746724046699
+    second: slimeball_11
+  - first:
+      213: 6688818652467276348
+    second: slimeball_12
+  - first:
+      213: -6314046023887812681
+    second: slimeball_13
+  - first:
+      213: -6942459839324498232
+    second: slimeball_14
+  - first:
+      213: 2657247336239238326
+    second: slimeball_15
+  - first:
+      213: -7033075449203092909
+    second: slimeball_16
+  - first:
+      213: 8137357070058616765
+    second: slimeball_17
+  - first:
+      213: 970918204679381058
+    second: slimeball_18
+  - first:
+      213: 3668582648838515878
+    second: slimeball_19
+  - first:
+      213: 1122941469738050945
+    second: slimeball_20
+  - first:
+      213: -6357094815939835844
+    second: slimeball_21
+  - first:
+      213: -4812399804828062800
+    second: slimeball_22
+  - first:
+      213: 7582475002042299532
+    second: slimeball_23
+  - first:
+      213: -8234894702743114715
+    second: slimeball_24
+  - first:
+      213: -4914874147727773616
+    second: slimeball_25
+  - first:
+      213: 7599829550450319195
+    second: slimeball_26
+  - first:
+      213: 5905299084136324431
+    second: slimeball_27
+  - first:
+      213: -4619432694802955827
+    second: slimeball_28
+  - first:
+      213: -6755177321657192089
+    second: slimeball_29
+  - first:
+      213: 2084071067255455140
+    second: slimeball_30
+  - first:
+      213: 8839935180558372787
+    second: slimeball_31
+  - first:
+      213: 6904648226319860287
+    second: slimeball_32
+  - first:
+      213: -1648515313499733897
+    second: slimeball_33
+  - first:
+      213: -1162489131420932233
+    second: slimeball_34
+  - first:
+      213: -5470133013603970449
+    second: slimeball_35
+  - first:
+      213: 4596019790098838557
+    second: slimeball_36
+  - first:
+      213: -6311340265945082169
+    second: slimeball_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeball_front
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 377
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fad4db70e7d4e60800000000000000
+      internalID: 7948147489084649355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 376
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55b00f154a3c7e00800000000000000
+      internalID: 1043773282190407005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 376
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab1d0e266fbf340800000000000000
+      internalID: 4898779924234615490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 376
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c2dcfaea9495470800000000000000
+      internalID: 8383813195949485214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 376
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf6f202d4640510800000000000000
+      internalID: 1514446227858979947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 260
+        width: 182
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8b55308d3b29e10800000000000000
+      internalID: 2203020908087851205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_right
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 327
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ddc3374fe35e40800000000000000
+      internalID: 5644117847116207508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 327
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5952a2d0b238ef160800000000000000
+      internalID: 7061225486691214741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 327
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e457e28e9db52800800000000000000
+      internalID: 587083814940398818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 327
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab8fbed62fe853c0800000000000000
+      internalID: -4370480488138175576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 327
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef353f2b4e0631c0800000000000000
+      internalID: -4524413059569729567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 272
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598aa30618fde63b0800000000000000
+      internalID: -5517226746724046699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 271
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aa153202573dc50800000000000000
+      internalID: 6688818652467276348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 275
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b703b238900068a0800000000000000
+      internalID: -6314046023887812681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 274
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6d5a11f8d67af90800000000000000
+      internalID: -6942459839324498232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 275
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc84e4af5070e420800000000000000
+      internalID: 2657247336239238326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_up
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 224
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3529abb442f756e90800000000000000
+      internalID: -7033075449203092909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 225
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77b534423bde070800000000000000
+      internalID: 8137357070058616765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 224
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240efd786f4697d00800000000000000
+      internalID: 970918204679381058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 224
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac6e2d6b7c69e230800000000000000
+      internalID: 3668582648838515878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_obj
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 225
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185aa4f215d759f00800000000000000
+      internalID: 1122941469738050945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 166
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38cd6c32ff07c7a0800000000000000
+      internalID: -6357094815939835844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 163
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb601cefdbe63db0800000000000000
+      internalID: -4812399804828062800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 166
+        width: 69
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84b20737dc5a3960800000000000000
+      internalID: 7582475002042299532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_24
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 162
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c2040f5e6c7bd80800000000000000
+      internalID: -8234894702743114715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 56
+        width: 216
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0507fe4b00cdacbb0800000000000000
+      internalID: -4914874147727773616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 114
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f9b14e5b4087960800000000000000
+      internalID: 7599829550450319195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 115
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d926aba36d3f150800000000000000
+      internalID: 5905299084136324431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 112
+        width: 72
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1c17a507a74efb0800000000000000
+      internalID: -4619432694802955827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 113
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76139d3340ac042a0800000000000000
+      internalID: -6755177321657192089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 65
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad3e62089b1cec10800000000000000
+      internalID: 2084071067255455140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_31
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 69
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf09a2f532cdaa70800000000000000
+      internalID: 8839935180558372787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3283dcbafc32df50800000000000000
+      internalID: 6904648226319860287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_33
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 65
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7708e0c7e0c4f19e0800000000000000
+      internalID: -1648515313499733897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_34
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 16
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777276a4b420edfe0800000000000000
+      internalID: -1162489131420932233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_35
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 16
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629ff1910f2614b0800000000000000
+      internalID: -5470133013603970449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_36
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 16
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14b189f5a758cf30800000000000000
+      internalID: 4596019790098838557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeball_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 16
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c659bf877d9968a0800000000000000
+      internalID: -6311340265945082169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4005c68bbc897604ab87b5c72ba5ec8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeball_1: 1043773282190407005
+      slimeball_10: -4524413059569729567
+      slimeball_12: 6688818652467276348
+      slimeball_13: -6314046023887812681
+      slimeball_14: -6942459839324498232
+      slimeball_15: 2657247336239238326
+      slimeball_17: 8137357070058616765
+      slimeball_18: 970918204679381058
+      slimeball_19: 3668582648838515878
+      slimeball_2: 4898779924234615490
+      slimeball_21: -6357094815939835844
+      slimeball_22: -4812399804828062800
+      slimeball_23: 7582475002042299532
+      slimeball_24: -8234894702743114715
+      slimeball_25: -4914874147727773616
+      slimeball_26: 7599829550450319195
+      slimeball_27: 5905299084136324431
+      slimeball_28: -4619432694802955827
+      slimeball_29: -6755177321657192089
+      slimeball_3: 8383813195949485214
+      slimeball_30: 2084071067255455140
+      slimeball_31: 8839935180558372787
+      slimeball_32: 6904648226319860287
+      slimeball_33: -1648515313499733897
+      slimeball_34: -1162489131420932233
+      slimeball_35: -5470133013603970449
+      slimeball_36: 4596019790098838557
+      slimeball_37: -6311340265945082169
+      slimeball_4: 1514446227858979947
+      slimeball_5: 2203020908087851205
+      slimeball_7: 7061225486691214741
+      slimeball_8: 587083814940398818
+      slimeball_9: -4370480488138175576
+      slimeball_front: 7948147489084649355
+      slimeball_left: -5517226746724046699
+      slimeball_obj: 1122941469738050945
+      slimeball_right: 5644117847116207508
+      slimeball_up: -7033075449203092909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
