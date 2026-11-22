@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de083bb056bf11e40b74932ce01b08af, type: 3}
   m_Name: SlimeBall
   m_EditorClassIdentifier: Assembly-CSharp::IngredientSO
+  objThumbnail: {fileID: 8137357070058616765, guid: 71ed6c22bf94be84aaa1543e07fd8430, type: 3}
   objIcon: {fileID: 1122941469738050945, guid: 71ed6c22bf94be84aaa1543e07fd8430, type: 3}
   objName: Slime ball
   objDescription: A ball dropped by a slime. Sticky and gooey like the creature it
     came from.
+  objThumbnailBkg: {fileID: 0}
+  objIconBkg: {fileID: 0}

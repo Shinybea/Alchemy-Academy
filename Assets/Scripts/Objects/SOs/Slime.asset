@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eab0cbf1e7ebe334493b9ea7740fc2b0, type: 3}
   m_Name: Slime
   m_EditorClassIdentifier: Assembly-CSharp::CreatureSO
+  objThumbnail: {fileID: 7599829550450319195, guid: 71ed6c22bf94be84aaa1543e07fd8430, type: 3}
   objIcon: {fileID: 7061225486691214741, guid: 71ed6c22bf94be84aaa1543e07fd8430, type: 3}
   objName: Slime
   objDescription: A sad little slime. Do you really want to hurt such a pathetic
     creature?
+  objThumbnailBkg: {fileID: 0}
+  objIconBkg: {fileID: 0}
   objDrops:
   - {fileID: 11400000, guid: 07dab8485863d6a4f9810338155482e6, type: 2}
