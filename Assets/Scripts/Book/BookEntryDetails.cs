@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class BookEntryDetails : MonoBehaviour
 {
-    [SerializeField] private GameObject entryDetailsScreen;
+    [SerializeField] private GameObject entryDetailsPanel;
     [SerializeField] private TextMeshProUGUI entryName;
     [SerializeField] private TextMeshProUGUI entryDescription;
     [SerializeField] private Image entryIcon;
@@ -19,13 +19,13 @@ public class BookEntryDetails : MonoBehaviour
         entryDescription.text = obj.objDescription;
         entryIcon.sprite = obj.objIcon;
         
-        entryDetailsScreen.SetActive(true);
+        entryDetailsPanel.SetActive(true);
     }
 
     public void HideEntryDetails()
     {
         ClearEntryDetails();
-        entryDetailsScreen.SetActive(false);
+        entryDetailsPanel.SetActive(false);
     }
     
     private void ClearEntryDetails()

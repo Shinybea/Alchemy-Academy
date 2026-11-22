@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 453481051}
   - component: {fileID: 453481050}
   m_Layer: 5
-  m_Name: ObjectDescription
+  m_Name: EntryDescription
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 1239702074}
   - component: {fileID: 1239702073}
   m_Layer: 5
-  m_Name: ObjectSprite
+  m_Name: EntryIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1168,10 +1168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb63803f9bda774c926a177fc42f31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BookEntryDetails
-  entryDetailsScreen: {fileID: 0}
-  entryName: {fileID: 0}
-  entryDescription: {fileID: 0}
-  entryIcon: {fileID: 0}
+  entryDetailsPanel: {fileID: 1745393348}
+  entryName: {fileID: 1734246276}
+  entryDescription: {fileID: 453481050}
+  entryIcon: {fileID: 1239702073}
 --- !u!1 &1557114951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 1734246277}
   - component: {fileID: 1734246276}
   m_Layer: 5
-  m_Name: ObjectName
+  m_Name: EntryName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1443,8 +1443,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1239702072}
   - {fileID: 1734246275}
+  - {fileID: 1239702072}
   - {fileID: 453481049}
   m_Father: {fileID: 1535940822}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

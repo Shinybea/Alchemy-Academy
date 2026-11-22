@@ -19,6 +19,7 @@ public class BookEntryList : MonoBehaviour
 
     void Start()
     {
+        if (!isTest) { return; }
         _entryDetails = GetComponent<BookEntryDetails>();
         PrepareList();
         list.SetActive(true);
