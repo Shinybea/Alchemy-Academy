@@ -1,16 +1,14 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInputs : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private InputActionReference openBookAction;
+    [SerializeField] private GameObject book;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (openBookAction.action.triggered) { book.SetActive(true); }
     }
 }

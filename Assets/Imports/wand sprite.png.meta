@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: b0e09e280f7229241b00ecc4081d3557
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1216424303752947460
+    second: wand sprite_0
+  - first:
+      213: 5947444765531899592
+    second: wand sprite_1
+  - first:
+      213: 6648156333380873484
+    second: wand sprite_2
+  - first:
+      213: 5846137211682250660
+    second: wand sprite_3
+  - first:
+      213: -1141332804105091689
+    second: wand sprite_4
+  - first:
+      213: 2373066182946320692
+    second: wand sprite_5
+  - first:
+      213: 540467806517328716
+    second: wand sprite_6
+  - first:
+      213: -5403007343462467976
+    second: wand sprite_7
+  - first:
+      213: 3325825840823419919
+    second: wand sprite_8
+  - first:
+      213: 785924466045585973
+    second: wand sprite_9
+  - first:
+      213: 6870527605581972756
+    second: wand sprite_10
+  - first:
+      213: 6888660771504176695
+    second: wand sprite_11
+  - first:
+      213: 7158306173674774303
+    second: wand sprite_12
+  - first:
+      213: 8278826565973602120
+    second: wand sprite_13
+  - first:
+      213: 2027686646050509040
+    second: wand sprite_14
+  - first:
+      213: -199659909777731440
+    second: wand sprite_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wand sprite_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 716
+        width: 257
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf857a66a846e1fe0800000000000000
+      internalID: -1216424303752947460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1088
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c609cad081998250800000000000000
+      internalID: 5947444765531899592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 716
+        width: 105
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d2e6636fef24c50800000000000000
+      internalID: 6648156333380873484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_3
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 716
+        width: 106
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af5382e1d6a12150800000000000000
+      internalID: 5846137211682250660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 716
+        width: 144
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795c0d89cdb2920f0800000000000000
+      internalID: -1141332804105091689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 716
+        width: 78
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431f10fce13dee020800000000000000
+      internalID: 2373066182946320692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 716
+        width: 115
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bfff34b90208700800000000000000
+      internalID: 540467806517328716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 716
+        width: 180
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876b71e8279a405b0800000000000000
+      internalID: -5403007343462467976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1037
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0448133bf4b72e20800000000000000
+      internalID: 3325825840823419919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 169
+        width: 106
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a8fea432a28ea00800000000000000
+      internalID: 785924466045585973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_10
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 169
+        width: 97
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4158a36a474095f50800000000000000
+      internalID: 6870527605581972756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 168
+        width: 115
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ebca75970799f50800000000000000
+      internalID: 6888660771504176695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 169
+        width: 147
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fde53e989675360800000000000000
+      internalID: 7158306173674774303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 168
+        width: 64
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f6ced06ec44e270800000000000000
+      internalID: 8278826565973602120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 169
+        width: 106
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0d4ade24ac32c10800000000000000
+      internalID: 2027686646050509040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wand sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 169
+        width: 96
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090dfc1be5aaa3df0800000000000000
+      internalID: -199659909777731440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wand sprite_0: -1216424303752947460
+      wand sprite_1: 5947444765531899592
+      wand sprite_10: 6870527605581972756
+      wand sprite_11: 6888660771504176695
+      wand sprite_12: 7158306173674774303
+      wand sprite_13: 8278826565973602120
+      wand sprite_14: 2027686646050509040
+      wand sprite_15: -199659909777731440
+      wand sprite_2: 6648156333380873484
+      wand sprite_3: 5846137211682250660
+      wand sprite_4: -1141332804105091689
+      wand sprite_5: 2373066182946320692
+      wand sprite_6: 540467806517328716
+      wand sprite_7: -5403007343462467976
+      wand sprite_8: 3325825840823419919
+      wand sprite_9: 785924466045585973
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
