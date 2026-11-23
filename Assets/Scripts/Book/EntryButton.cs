@@ -9,21 +9,22 @@ public class EntryButton : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI entryName;
 
-    private BookEntryDetails _entryDetails;
+    private BookManager _bookManager;
+    // private BookEntryDetails _entryDetails;
     private ObjectSO entryObj;
    
-    public void ApplyObject(ObjectSO obj, BookEntryDetails details)
+    public void ApplyObject(ObjectSO obj, BookManager details)
     {
         entryObj = obj;
         if (entryObj == null) { Debug.LogError("Invalid obj"); }
-        _entryDetails  = details;
-        if (_entryDetails == null) { Debug.LogError("Invalid details"); }
+        _bookManager  = details;
+        if (_bookManager == null) { Debug.LogError("Invalid details"); }
         entryName.text = obj.objName;
         entrySprite.sprite = obj.objThumbnail;
         if (obj.objThumbnailBkg != null) { entryBackground.sprite = obj.objThumbnailBkg; }
     }
 
     public void ShowObjectDetails()
-    { _entryDetails.ShowEntryDetails(entryObj); }
+    { _bookManager.ShowEntryDetails(entryObj); }
     
 }
