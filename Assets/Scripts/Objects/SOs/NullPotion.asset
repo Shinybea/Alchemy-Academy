@@ -15,6 +15,6 @@ MonoBehaviour:
   objThumbnail: {fileID: -3659487601432457318, guid: 75a9de3f086553c4495dcd0d05c2ba9c, type: 3}
   objIcon: {fileID: -3659487601432457318, guid: 75a9de3f086553c4495dcd0d05c2ba9c, type: 3}
   objName: Null Potion
-  objDescription: It's simple water, it's refreshing it but not much is to be expected.
+  objDescription: It's simple water, it's refreshing but not much is to be expected.
   objThumbnailBkg: {fileID: 0}
   objIconBkg: {fileID: 0}
