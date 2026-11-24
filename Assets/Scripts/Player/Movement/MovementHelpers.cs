@@ -50,9 +50,3 @@ public enum EDirection
     Right,  //2
     Left    //3
 }
-
-// public enum ESideScrollerDirection
-// {
-//     Right,
-//     Left
-// }

@@ -36,27 +36,29 @@ public class BookManager : MonoBehaviour
     #endregion
     
     #region TEST
+        [Space(5)]
+        [SerializeField] private PlayerData playerData;
+    
         [Header("Test")]
         public List<ObjectSO> shownObjects;
     #endregion
 
     void Start()
     {
+        ToggleSubscriptions(true);
         HideEntryDetails();
-        CloseBook();
+        ToggleBook(false);
     }
 
-    #region BOOK/CHAPTER CALLS
+    void OnDestroy()
+    { ToggleSubscriptions(false); }
 
-        public void OpenBook()
+    #region BOOK/CHAPTER CALLS
+    
+        public void ToggleBook(bool open)
         {
             CloseChapter();
-            bookCanvas.SetActive(true);
-        }
-        public void CloseBook()
-        {
-            CloseChapter();
-            bookCanvas.SetActive(false);
+            bookCanvas.SetActive(open);
         }
         
         public void OpenChapter(int type)
@@ -79,7 +81,6 @@ public class BookManager : MonoBehaviour
         }
 
     #endregion
-    
     
     #region ENTRY LIST
     
@@ -105,10 +106,7 @@ public class BookManager : MonoBehaviour
             entry.SetActive(true);
         }
     #endregion
-
-
-
-
+    
     #region ENTRY DETAILS
         public void ShowEntryDetails(ObjectSO obj)
         {
@@ -132,8 +130,14 @@ public class BookManager : MonoBehaviour
             entryIcon.sprite = null;
         }
     #endregion
-    
-   
+
+    #region SUBSCRIPTIONS
+        private void ToggleSubscriptions(bool isSubscribed)
+        {
+            if (isSubscribed)   { playerData.OnToggleBook += ToggleBook; }
+            else                { playerData.OnToggleBook -= ToggleBook; }
+        }
+    #endregion
     
 }
 
