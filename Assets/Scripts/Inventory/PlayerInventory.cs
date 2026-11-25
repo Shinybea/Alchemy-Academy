@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,10 +9,17 @@ public class PlayerInventory : MonoBehaviour
     [SerializeField] private List<ToolSO>   _eqdTools = new();   //3
     [SerializeField] private List<PotionSO> _eqdPotions = new(); //2
     
+    private ToolSO _currentTool;
+    private PotionSO _currentPotion;
+
+    public event Action<List<ToolSO>, ToolSO> OnEquipTool;
+    public event Action<List<PotionSO>, PotionSO> OnEquipPotion;
+    
     public List<ObjectSO> AllItems => _allItems;
     public List<ToolSO> EqdTools => _eqdTools;
     public List<PotionSO> EqdPotions => _eqdPotions;
-
+    public ToolSO CurrentTool => _currentTool;
+    public PotionSO CurrentPotion => _currentPotion;
     
     
     
@@ -36,6 +44,17 @@ public class PlayerInventory : MonoBehaviour
                 break;
         }
     }
-    
-    
+
+    public void Equip<T>(T item)
+    {
+        switch (item)
+        {
+            case PotionSO potion: _currentPotion = potion; OnEquipPotion?.Invoke(_eqdPotions, _currentPotion); break;
+            case ToolSO tool:     _currentTool = tool;     OnEquipTool?.Invoke(_eqdTools, _currentTool);   break;
+            default: Debug.LogError("Invalid object"); break; 
+            
+        }
+    }
+
+
 }
