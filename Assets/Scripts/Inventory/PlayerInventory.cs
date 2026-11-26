@@ -5,21 +5,46 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
 
+    [Header("GameObject References")] 
+    [SerializeField] private GameObject _inventoryCanvas;
+    [SerializeField] private GameObject _itemsPanel;
+    [SerializeField] private GameObject _eqdToolsPanel;
+    [SerializeField] private GameObject _eqdPotionsPanel;
+    
     [SerializeField] private List<ObjectSO> _allItems = new();   //4
     [SerializeField] private List<ToolSO>   _eqdTools = new();   //3
     [SerializeField] private List<PotionSO> _eqdPotions = new(); //2
-    
+
+    private PlayerData _playerData;
     private ToolSO _currentTool;
     private PotionSO _currentPotion;
 
     public event Action<List<ToolSO>, ToolSO> OnEquipTool;
     public event Action<List<PotionSO>, PotionSO> OnEquipPotion;
     
-    public List<ObjectSO> AllItems => _allItems;
-    public List<ToolSO> EqdTools => _eqdTools;
-    public List<PotionSO> EqdPotions => _eqdPotions;
-    public ToolSO CurrentTool => _currentTool;
-    public PotionSO CurrentPotion => _currentPotion;
+    [Header("Test")]
+    private List<GameObject> _itemsSlots = new();
+    private List<GameObject> _toolsSlots = new();
+    private List<GameObject> _potionSlots = new();
+
+    void Start()
+    { 
+        _playerData = GetComponent<PlayerData>();
+        _inventoryCanvas.SetActive(false);
+        foreach (Transform child in _itemsPanel.transform)      { _itemsSlots.Add(child.gameObject); }
+        foreach (Transform child in _eqdToolsPanel.transform)   { _toolsSlots.Add(child.gameObject); }
+        foreach (Transform child in _eqdPotionsPanel.transform) { _potionSlots.Add(child.gameObject); }
+        
+        ToggleSubscriptions(true);
+    }
+
+    void OnDestroy()
+    {
+        ToggleSubscriptions(false);
+    }
+
+    private void ToggleInventory(bool open) { _inventoryCanvas.SetActive(open); }
+    
     
     
     
@@ -53,6 +78,18 @@ public class PlayerInventory : MonoBehaviour
             case ToolSO tool:     _currentTool = tool;     OnEquipTool?.Invoke(_eqdTools, _currentTool);   break;
             default: Debug.LogError("Invalid object"); break; 
             
+        }
+    }
+
+    private void ToggleSubscriptions(bool isSubscribed)
+    {
+        if (isSubscribed)
+        {
+            _playerData.OnToggleInventory += ToggleInventory;
+        }
+        else
+        {
+            _playerData.OnToggleInventory -= ToggleInventory;
         }
     }
 

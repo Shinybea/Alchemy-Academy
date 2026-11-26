@@ -17,10 +17,15 @@ public class PlayerData : MonoBehaviour
     
     #region INPUT ACTIONS - BOOK
         [Space(5)]
-        [SerializeField] private InputActionReference openBookAction;
+        [SerializeField] private InputActionReference toggleBookAction;
         [SerializeField] private InputActionReference interactAction;
-        // [SerializeField] private BookManager book;
     #endregion
+    
+    #region INPUT ACTIONS - INVENTORY
+        [Space(5)] 
+        [SerializeField] private InputActionReference toggleInventoryAction;
+    #endregion
+    
     
     #region VARIABLES/REFERENCES - MOVEMENT
         [Header("References")]
@@ -65,8 +70,9 @@ public class PlayerData : MonoBehaviour
     [HideInInspector] public EDirection facingDirection;
     [HideInInspector] public bool _isSpeaking = false; 
 
-    #region ACTIONS
+    #region EVENT ACTIONS
       public event Action<bool> OnToggleBook;
+      public event Action<bool> OnToggleInventory;
     #endregion
 
     #region ANIMATIONS
@@ -83,7 +89,7 @@ public class PlayerData : MonoBehaviour
     #endregion
     
     private bool _isBookOpen;
-
+    private bool _isInventoryOpen;
 
     #region SETUP
         void Start()
@@ -107,58 +113,59 @@ public class PlayerData : MonoBehaviour
 
     private void Update()
     {
-        if (openBookAction.action.triggered) { OnToggleBook?.Invoke(!_isBookOpen); _isBookOpen = !_isBookOpen; }
-        if (_isSpeaking || _isBookOpen) { FreezeMovement(); }
+        if (toggleBookAction.action.triggered && !_isInventoryOpen) { OnToggleBook?.Invoke(!_isBookOpen); _isBookOpen = !_isBookOpen; }
+        if (toggleInventoryAction.action.triggered && !_isBookOpen) { OnToggleInventory?.Invoke(!_isInventoryOpen); _isInventoryOpen = !_isInventoryOpen; }
+        
+        if (_isSpeaking || _isBookOpen || _isInventoryOpen) { FreezeMovement(); return; }
+        
+        if (jumpAction.action.triggered && groundCheck.isGrounded) { Jump(); }
+        if (crouchAction.action.triggered && groundCheck.isGrounded) { Crouch(); }
+        _moveVector = moveAction.action.ReadValue<Vector2>();
+        _isMoving = _moveVector != Vector2.zero;
 
-        else
-        {
-            if (jumpAction.action.triggered && groundCheck.isGrounded) { Jump(); }
-            if (crouchAction.action.triggered && groundCheck.isGrounded) { Crouch(); }
-            _moveVector = moveAction.action.ReadValue<Vector2>();
-            _isMoving = _moveVector != Vector2.zero;
+        #region MOVEMENT STATES
+            if (_isMoving) { StopAllCoroutines(); _isWalking = true; } else { StartCoroutine(WaitBeforeStopWalking()); }
+            _isRunning = runAction.action.IsPressed();
+            _isCrouching = crouchAction.action.IsPressed();
+        #endregion
+        
+        #region ANIMATIONS
 
-            #region MOVEMENT STATES
-                if (_isMoving) { StopAllCoroutines(); _isWalking = true; } else { StartCoroutine(WaitBeforeStopWalking()); }
-                _isRunning = runAction.action.IsPressed();
-                _isCrouching = crouchAction.action.IsPressed();
-            #endregion
-            
-            #region ANIMATIONS
-                _animator.SetBool(AnimIsSpeaking, _isSpeaking);
-                _animator.SetBool(AnimIsWalking, _isWalking);
-                _animator.SetBool(AnimIsRunning, _isRunning);
-                _animator.SetBool(AnimIsCrouching, _isCrouching);
-                _animator.SetBool(AnimIsSliding, isSliding);
-                _animator.SetBool(AnimIsJumping, !groundCheck.isGrounded);
-                if (!_isMoving) { _animator.StopPlayback(); }
-                else
+            if (_animator == null) { return; }
+            _animator.SetBool(AnimIsSpeaking, _isSpeaking);
+            _animator.SetBool(AnimIsWalking, _isWalking);
+            _animator.SetBool(AnimIsRunning, _isRunning);
+            _animator.SetBool(AnimIsCrouching, _isCrouching);
+            _animator.SetBool(AnimIsSliding, isSliding);
+            _animator.SetBool(AnimIsJumping, !groundCheck.isGrounded);
+            if (!_isMoving) { _animator.StopPlayback(); }
+            else
+            {
+                if (Mathf.Abs(_moveVector.x) > 0.01f) { _spriteRenderer.flipX = _moveVector.x < 0; }
+
+                switch (areaType)
                 {
-                    if (Mathf.Abs(_moveVector.x) > 0.01f) { _spriteRenderer.flipX = _moveVector.x < 0; }
-
-                    switch (areaType)
-                    {
-                        case EAreaType.SideScroller:
-                            facingDirection = _moveVector.ToDirectionSideScroll(); 
-                            break;
-                        case EAreaType.TopDown:
-                            facingDirection = _moveVector.ToDirectionTopDown(); 
-                            _animator.SetInteger(AnimDirection, (int) facingDirection);
-                            break;
-                        default: Debug.Log("EAreaType not implemented"); break;
-                        
-                    }
+                    case EAreaType.SideScroller:
+                        facingDirection = _moveVector.ToDirectionSideScroll(); 
+                        break;
+                    case EAreaType.TopDown:
+                        facingDirection = _moveVector.ToDirectionTopDown(); 
+                        _animator.SetInteger(AnimDirection, (int) facingDirection);
+                        break;
+                    default: Debug.Log("EAreaType not implemented"); break;
+                    
                 }
-            #endregion
-        }
+            }
+        #endregion
+        
     }
 
 
     private void FixedUpdate()
     {
-
         #region MOVEMENT
 
-            if (_isSpeaking || _isBookOpen) {_rb.linearVelocity = Vector2.zero; return; }
+            if (_isSpeaking || _isBookOpen || _isInventoryOpen) {_rb.linearVelocity = Vector2.zero; return; }
             
             HandleGravity();
             
@@ -185,8 +192,16 @@ public class PlayerData : MonoBehaviour
 
     }
 
+    #region ACTIONS - INVENTORY
+    
+    
+
+    #endregion
+    
+    
+    
         
-    #region ACTIONS
+    #region ACTIONS - MOVEMENT
         private void Jump()
         {
             _isJumpPressed = true;
@@ -229,7 +244,7 @@ public class PlayerData : MonoBehaviour
         }
     #endregion
     
-    #region HELPERS
+    #region HELPERS - MOVEMENT
         private IEnumerator WaitBeforeStopWalking()
         {
             if (_isMoving) { yield break; }
